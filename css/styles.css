@@ -524,8 +524,8 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 background: var(--white);
 }
-.list-li-projectcard:hover .projectcard-overlay,
-.list-li-projectcard:focus .projectcard-overlay {
+.list-li-projectcard:hover .prj-img-text,
+.list-li-projectcard:focus .prj-img-text {
     transform: translateY(0%);
 }
 
