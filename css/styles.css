@@ -332,6 +332,7 @@
         flex-wrap: wrap;
         gap: 24px;
         
+        
     }
 
     .list-li-about {
@@ -347,6 +348,7 @@
         border-radius: 4px;
         margin-bottom: 8px;
         background: var(--cloud);
+        
         
     }
     .icon-icon-about{
@@ -458,6 +460,7 @@
         .icon-item{
             width: 40px;
             height: 40px;
+            
         }
         .icon-link{
             width: 100%;
@@ -467,6 +470,8 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            
         }
         .icon-icon{
             fill:var(--cloud);
@@ -623,6 +628,7 @@ background: var(--white);
         display: flex;
         align-items: center;
         justify-content: center;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
     .icon-icon-footer {
